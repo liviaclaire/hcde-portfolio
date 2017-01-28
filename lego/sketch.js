@@ -65,9 +65,9 @@ function smart() { // begins function
   // C3PO moves from top right to center
 function talk() { // begins function
   fill(254, 216, 128); // creates color for the shapes below
-  rect(talkE, talkF, 60, 250);
+  rect(talkE, talkF, 60, 250); // creates the body shape + includes variables from above
   fill(0, 20, 20); // creates color for the shapes below
-  rect(talkE, talkF + 120, 60, 20);
+  rect(talkE, talkF + 120, 60, 20); // creates the little middle bar shape + includes variables from above
   talkE = max(talkE - 1, 530); // sets movement for x coordinates and then stops the shape
   talkF = min(talkF + 1, 250); // sets movement for y coordinates and then stops the shape
 }
