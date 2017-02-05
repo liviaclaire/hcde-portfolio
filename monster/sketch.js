@@ -21,7 +21,7 @@ function draw() { //runs everything within it's function
       eyeDirection = max(eyeDirection - .5, -50); // eye direction moves to the left
     } //closes statement
   } else { // othersise if page === 0 this happens
-    jumpValue = jumpValue + jumpDir; // the jumpValue is equal to the jumpValue plus jumpDirection
+      jumpValue = jumpValue + jumpDir; // the jumpValue is equal to the jumpValue plus jumpDirection
     if (jumpValue < 5 || jumpValue > 80) { // if jumpValue is less thatn 5 OR jump value is greater than 80; constrains the following statement
       jumpDir = jumpDir * -1; // jump direction will move 
     } //closes statement
