@@ -7,8 +7,6 @@ var eyeDirection = 0;
 var jumpValue = 10;
 var jumpDir = -5;
 
-
-
 function setup(){ //prepares canvas
   createCanvas(800, 800);   // creates canvas
 }
@@ -64,7 +62,6 @@ function body(x, y) {
   triangle(x - 40, y + 100, x, y + 250, x + 35, y + 100);
 }
 
-
 // draws the eyes at the x, y location
 function eyes(x, y) {
   noStroke();
@@ -88,4 +85,3 @@ function legs(x, y) {
   rect(x -50, y + 75, 50, 20);
   rect(x + 25, y + 75, 50, 20);
 }
-
