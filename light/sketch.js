@@ -1,7 +1,7 @@
-  /*  Livia Brown
-      Last Edited on 2.11.17
-      Create a light that you can adjust the color and turn off the light with the off button
-  */
+/*  Livia Brown
+    Last Edited on 2.11.17
+    Create a light that you can adjust the color and turn off the light with the off butto
+*/
 
 var slider; // creates the slider variable
 var button; // creates button variable
@@ -22,7 +22,7 @@ function draw() {
   bottom();                   // calls bottom function
   // creates if statement that says if mouse is pressed & is at an x point > 480 or < 530 & the y is > 280 or < 305 the button will run reset
   if (mouseIsPressed && mouseX > 480 && mouseX < 530 && mouseY > 280 && mouseY < 305) { 
-    reset();                  // reset button is run within if statement
+    reset();                 // reset button is run within if statement
   }
 }
 
