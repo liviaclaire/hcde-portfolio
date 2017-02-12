@@ -1,7 +1,8 @@
-  /*  Livia Brown
-      Last Edited on 2.11.17
-      Creates a mario scene with mario jumping to box and having a coin pop out
-  */
+/*  Livia Brown
+    Last Edited on 2.11.17
+    Creates a mario scene with mario jumping to box and having a coin pop out
+*/
+
 var marioB;         // creates variable for mario image
 var song;           // creates variable for song
 var dir = 5;        // creates variable for speed 
@@ -28,16 +29,19 @@ function loaded () {                            // loads mario music and starts 
 function draw() {
   background(marioB);                     // repeats mario image background
   mario();                                // calls mario function
+  
   if (keyCode == LEFT_ARROW) {            // creates if statement says if left arrow is pressed
     x = max(x - dir, 50);                 // then the direction will go left on the x axis and stop at 50
   } else if (keyCode == RIGHT_ARROW) {    // otherwise if the right arrow is pressed 
     x = min(x + dir, 800);                // mario will move to the right until 800 on x axis  
   }
+  
   if (keyCode == UP_ARROW) {              // if the up arrow is pressed
     y = max(y - dir, 370);                // mario will go up until y coordinate is at 370
   } else {                                // otherwise
     y = min(y + dir, 400);                // he will go back down and stop when y coordinate is at 400
   }
+  
   if (keyCode == UP_ARROW && x > 400 && x < 700)  {   // if the up arrow goes between 400 and 700 on x axis
     coin();                                           // the coin function will appear
     coinY = coinY - dir;                              // then the coin will move up and off the canvas
