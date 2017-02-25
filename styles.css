@@ -2,15 +2,13 @@
 body {
   background-color: E8DDCB;
   width: 960px;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
 }
 
 h1 {
   color: 036564;
   font-family: 'Playfair Display', serif;
   text-align: center;
-  
 }
 
 p {
@@ -23,9 +21,7 @@ p {
 a {
   color: 415368;
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  
-  
+  font-weight: 400; 
 }
 
 .projects {
