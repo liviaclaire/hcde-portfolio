@@ -1,0 +1,39 @@
+
+body {
+  background-color: E8DDCB;
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+h1 {
+  color: 036564;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  
+}
+
+p {
+  color: 033649;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10;
+  text-align: left;
+}
+
+a {
+  color: 415368;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  
+  
+}
+
+.projects {
+  border: solid; 
+  border-width: 4px;
+  border-color:fff6e5;
+  max-width: 200px;
+  text-align: center;
+  padding: 10 10 30 10;
+  margin: auto;
+}
