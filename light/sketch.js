@@ -9,8 +9,8 @@ var button; // creates button variable
 function setup() {
   createCanvas(600, 600);                 // sets canvas to 600x600
   noStroke();                             // nothing in canvas has a stroke
-  slider = createSlider(170, 255, 200);   // creates slider and assigns variable to it
-  slider.position(450, 250);              // sets sliser position
+  slider = createSlider(270, 255, 200);   // creates slider and assigns variable to it
+  slider.position(450, 250);              // sets slider position
   button = createButton("off");           // creates button with text off
   button.position(480, 280, 50, 25);      // sets button position and height and width
   button.mousePressed(reset);             // creates action when mouse is pressed
